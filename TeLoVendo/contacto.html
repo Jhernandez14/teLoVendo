@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Te lo Vendo - Contacto</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <div class="header__contenedor">
+    <h1 class="header__titulo">Te lo Vendo</h1>
+    <nav class="nav">
+      <ul class="nav__lista">
+        <li><a href="index.html" class="nav__link">Inicio</a></li>
+        <li><a href="catalogo.html" class="nav__link">Catálogo</a></li>
+        <li><a href="acerca.html" class="nav__link">Acerca del Proyecto</a></li>
+        <li><a href="contacto.html" class="nav__link nav__link--activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <main class="main">
+    <section class="contacto">
+      <h2 class="contacto__titulo">Contáctanos</h2>
+      <p class="contacto__texto">¿Tienes dudas, sugerencias o quieres sumarte al proyecto? ¡Escríbenos!</p>
+
+      <form class="formulario" id="formularioContacto">
+        <div class="formulario__grupo">
+          <label for="nombre" class="formulario__label">Nombre:</label>
+          <input type="text" id="nombre" class="formulario__input" required />
+        </div>
+
+        <div class="formulario__grupo">
+          <label for="correo" class="formulario__label">Correo Electrónico:</label>
+          <input type="email" id="correo" class="formulario__input" required />
+        </div>
+
+        <div class="formulario__grupo">
+          <label for="mensaje" class="formulario__label">Mensaje:</label>
+          <textarea id="mensaje" rows="5" class="formulario__textarea" required></textarea>
+        </div>
+
+        <button type="submit" class="formulario__boton">Enviar</button>
+        <p id="mensajeEnviado" class="formulario__confirmacion">¡Gracias por tu mensaje! Te responderemos pronto.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__contenedor">
+      <p class="footer__texto">Te lo Vendo © 2025 | Escríbenos con confianza</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

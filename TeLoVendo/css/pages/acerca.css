@@ -1,0 +1,28 @@
+.acerca__titulo {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-primario);
+  text-align: center;
+}
+
+.acerca__bloque {
+  margin-bottom: 2.5rem;
+}
+
+.acerca__subtitulo {
+  font-size: 1.4rem;
+  color: var(--color-secundario);
+  margin-bottom: 1rem;
+}
+
+.acerca__texto {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.acerca__lista {
+  list-style: disc inside;
+  padding-left: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}

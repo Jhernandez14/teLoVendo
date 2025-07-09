@@ -1,0 +1,28 @@
+.catalogo__titulo {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-primario);
+  text-align: center;
+}
+
+.catalogo__categoria {
+  margin-bottom: 3rem;
+}
+
+.catalogo__subtitulo {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-secundario);
+}
+
+.catalogo__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.producto__link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

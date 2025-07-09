@@ -1,0 +1,76 @@
+.ficha__titulo {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-primario);
+  text-align: center;
+}
+
+.ficha__contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.ficha__imagen {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ficha__detalle {
+  max-width: 500px;
+}
+
+.ficha__descripcion {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.ficha__caracteristicas {
+  list-style: disc inside;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.ficha__boton {
+  display: inline-block;
+  background-color: var(--color-secundario);
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.ficha__boton:hover {
+  background-color: #149a80;
+}
+
+.mensaje-exito {
+  display: none;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .ficha__contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ficha__detalle {
+    text-align: center;
+  }
+}
