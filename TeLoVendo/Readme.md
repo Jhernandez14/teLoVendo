@@ -37,8 +37,8 @@ Se emplearon etiquetas semánticas (`<header>`, `<nav>`, `<main>`, `<section>`, 
 ---
 
 ## Resultado
-El resultado es un sitio funcional, limpio y fácil de navegar, con interacción básica y preparado para escalar. El trabajo del front-end estuvo enfocado en entregar una experiencia fluida, responsiva y acorde a los objetivos del portal.
+El resultado es un sitio funcional, limpio y fácil de navegar, con interacción básica y preparado para escalar. El trabajo del front-end estuvo enfocado en entregar una experiencia fluida, responsiva y acorde a los objetivos.
 
 ---
 
-**Desarrolladora Front-End:** [Nombre de tu esposa] 
+**Desarrolladora Front-End:** Jhernandez14
