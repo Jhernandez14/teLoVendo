@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Te lo Vendo - Catálogo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+            <h1 class="header__titulo">Te lo Vendo</h1>
+            <nav class="nav">
+                <ul class="nav__lista">
+                    <li><a href="index.html" class="nav__link">Inicio</a></li>
+                    <li><a href="catalogo.html" class="nav__link nav__link--activo">Catálogo</a></li>
+                    <li><a href="acerca.html" class="nav__link">Acerca del Proyecto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="catalogo">
+            <h2 class="catalogo__titulo">Catálogo por Categorías</h2>
+
+            <div class="catalogo__categoria">
+                <h3 class="catalogo__subtitulo">Accesorios</h3>
+                <div class="catalogo__grid">
+                    <a href="ficha.html" class="producto__link">
+                        <article class="producto">
+                            <img src="img/productos/accesorio1.jpg" alt="Accesorio 1" class="producto__imagen">
+                            <h4 class="producto__titulo">Pulsera Artesanal</h4>
+                            <p class="producto__descripcion">Hecha a mano con materiales reciclados.</p>
+                        </article>
+                        </a>
+                        <article class="producto">
+                            <img src="img/productos/accesorio2.jpg" alt="Accesorio 2" class="producto__imagen">
+                            <h4 class="producto__titulo">Aros de Madera</h4>
+                            <p class="producto__descripcion">Diseño único y sustentable.</p>
+                        </article>
+                    
+                </div>
+            </div>
+
+            <div class="catalogo__categoria">
+                <h3 class="catalogo__subtitulo">Decoración</h3>
+                <div class="catalogo__grid">
+                    <article class="producto">
+                        <img src="img/productos/deco1.jpg" alt="Deco 1" class="producto__imagen">
+                        <h4 class="producto__titulo">Macetero Cerámico</h4>
+                        <p class="producto__descripcion">Ideal para plantas pequeñas.</p>
+                    </article>
+                    <article class="producto">
+                        <img src="img/productos/deco2.jpg" alt="Deco 2" class="producto__imagen">
+                        <h4 class="producto__titulo">Velas Decorativas</h4>
+                        <p class="producto__descripcion">Aromas suaves para ambientar tus espacios.</p>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <p class="footer__texto">Te lo Vendo © 2025 | Emprendedores Jóvenes</p>
+        </div>
+    </footer>
+</body>
+
+</html>
