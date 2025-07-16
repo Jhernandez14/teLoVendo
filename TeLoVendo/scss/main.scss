@@ -1,0 +1,19 @@
+// Abstracts (variables)
+@import "abstracts/variables";
+
+// Base
+@import "base/reset";
+
+// Layout (estructura de la web)
+@import "layout/header";
+@import "layout/footer";
+
+// Components (botones)
+@import "components/button";
+
+// Pages (estilos por página)
+@import "pages/index";
+@import "pages/catalogo";
+@import "pages/acerca";
+@import "pages/ficha";
+@import "pages/contacto";
