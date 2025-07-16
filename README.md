@@ -33,6 +33,7 @@ Se emplearon etiquetas semánticas (`<header>`, `<nav>`, `<main>`, `<section>`, 
 ### 5. **Separación de responsabilidades**
 - El CSS y el JS fueron separados del HTML para seguir buenas prácticas y facilitar el mantenimiento del código a futuro.
 - Se nombraron las clases usando convención BEM para mantener una estructura clara en los estilos.
+- Se utiliza procesador SASS 
 
 ---
 
